@@ -1,0 +1,30 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Environment variables (critical for security!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and OS specific files
+.vscode/             # VS Code workspace settings, etc.
+.history/            # VS Code local file history
+.DS_Store            # macOS directory metadata
+Thumbs.db            # Windows thumbnail caches
+
+# Frontend build artifacts
+stock-frontend/build/
+stock-frontend/dist/ # In case you use 'dist' instead of 'build'
+
+# Test coverage reports
+coverage/
+
+# ESLint cache
+.eslintcache
+
+.history/
